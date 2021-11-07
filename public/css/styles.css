@@ -1,0 +1,65 @@
+body {
+
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+
+    flex-grow: 1;
+}
+
+footer {
+
+    color: goldenrod;
+    border-top: 1px solid brown;
+    margin-top: 20px;
+}
+
+header {
+
+    margin-top: 18px;
+    margin-bottom: 48px;
+}
+
+h1 {
+
+    font-size: 64px;
+    margin-bottom: 16px;
+
+}
+
+header a {
+
+    color: maroon;
+    margin-right: 18px;
+    text-decoration: none;
+}
+
+.portrait {
+
+    width: 250px;
+}
+
+input {
+
+    border: 1px solid gainsboro;
+    padding: 10px;
+
+}
+
+button {
+
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    background: gainsboro;
+    padding: 10px;
+
+
+}
